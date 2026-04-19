@@ -8,7 +8,8 @@
       "calories": 2,
       "brand": "COFFEE ROASTERS",
       "tags": ["strong", "single-shot"],
-      "image": "expresso"
+      "image": "expresso",
+      "price": 12
     },
     {
       "id": "americano",
@@ -17,7 +18,8 @@
       "category": "hotDrinks",
       "calories": 2,
       "notes": "2 Cal | 13 J",
-      "image": "americano"
+      "image": "americano",
+      "price": 13
     },
     {
       "id": "latte",
@@ -25,7 +27,8 @@
       "name_en": "Latte",
       "category": "hotDrinks",
       "calories": 122,
-      "image": "latte"
+      "image": "latte",
+      "price": 13 
     },
     {
       "id": "flat_white",
@@ -34,7 +37,8 @@
       "category": "hotDrinks",
       "calories": 92,
       "brand": "ANDES Coffee Roasters",
-      "image":"flatWhite"
+      "image":"flatWhite",
+      "price": 18
     },
     {
       "id": "cortado",
@@ -42,7 +46,8 @@
       "name_en": "Cortado",
       "category": "hotDrinks",
       "calories": 62,
-      "image":"cortado"
+      "image":"cortado",
+      "price": 14
     },
     {
       "id": "drip_coffee_hot",
@@ -50,7 +55,8 @@
       "name_en": "Drip Coffee",
       "category": "hotDrinks",
       "calories": 2,
-      "image": "drip"
+      "image": "drip",
+      "price": 18
     }
   ],
   "coldDrinks": [
@@ -60,7 +66,8 @@
       "name_en": "Ice Drip Coffee",
       "category": "coldDrinks",
       "calories": 2,
-      "image":"IceDrip"
+      "image":"IceDrip",
+      "price": 18
     },
     {
       "id": "ice_americano",
@@ -69,7 +76,8 @@
       "category": "coldDrinks",
       "calories": 2,
       "image":"IceAmericano",
-      "brand": "ANDES"
+      "brand": "ANDES",
+      "price": 13
     },
     {
       "id": "fruity_hibiscus",
@@ -77,7 +85,8 @@
       "name_en": "Fruity Hibiscus",
       "category": "coldDrinks",
       "calories": 76,
-      "image": "fruity_hibiscus"
+      "image": "fruity_hibiscus",
+      "price": 14
     }
   ],
   "sweets": [
@@ -87,7 +96,8 @@
       "name_en": "Brownies",
       "category": "sweets",
       "calories": 310,
-      "image":"brownie"
+      "image":"brownie",
+      "price": 14
     },
     {
       "id": "orange_cake",
@@ -95,7 +105,8 @@
       "name_en": "Orange Cake",
       "category": "sweets",
       "calories": 371,
-      "image":"orange"
+      "image":"orange",
+      "price": 10
     },
     {
       "id": "magic_bar",
@@ -103,7 +114,8 @@
       "name_en": "Magic Bar",
       "category": "sweets",
       "calories": 236,
-      "image":"magicBar"
+      "image":"magicBar",
+      "price": 14
     }
   ]
 }

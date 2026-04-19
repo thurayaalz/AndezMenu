@@ -22,7 +22,7 @@ export default function App() {
   return (
     <>
       <header className="px-6 py-6">
-        <h1 >Andez x Mustqr</h1>
+        <img src="./public/theYard.png" alt=""/>
 
         <nav className="mt-4 flex gap-3">
           {[
@@ -30,16 +30,16 @@ export default function App() {
             { key: "coldDrinks", label: "Cold" },
             { key: "sweets", label: "Sweets" }
           ].map((c) => (
-            <button
-              key={c.key}
-              onClick={() => setCategory(c.key)}
-              className={`px-3 py-1  text-sm font-medium ${
-                category === c.key ? "bg-green-900 text-white" : "bg-gray-100"
-              }`}
-            >
-              {c.label}
-            </button>
-          ))}
+              <button
+                key={c.key}
+                onClick={() => setCategory(c.key)}
+                className={`px-3 py-1  text-lg font-lg ${
+category === c.key ? "bg-[#324639] text-white rounded-[0.2rem]" : "bg-trancparent"
+}`}
+              >
+                {c.label}
+              </button>
+            ))}
         </nav>
       </header>
 
@@ -48,22 +48,29 @@ export default function App() {
           {normalized.length === 0 ? (
             <div className="text-gray-500">No items in this category.</div>
           ) : (
-            normalized.map((drink) => (
-              <DrinkCard
-                key={drink.id}
-                drinkInfo={{
-                  name: drink.name,
-                  price: drink.price,
-                  cals: drink.cals,
-                  image: drink.image,
-                  // keep raw item if you need extra fields inside the card
-                  raw: drink.raw
-                }}
-              />
-            ))
-          )}
+              normalized.map((drink) => (
+                <DrinkCard
+                  key={drink.id}
+                  drinkInfo={{
+                    name: drink.name,
+                    price: drink.price,
+                    cals: drink.cals,
+                    image: drink.image,
+                    // keep raw item if you need extra fields inside the card
+                    raw: drink.raw
+                  }}
+                />
+              ))
+            )}
         </section>
       </main>
+
+
+      <spline-viewer
+        url="https://prod.spline.design/OnkXiLTRPuNCBiPl/scene.splinecode"
+        className="fixed top-0 left-0 w-screen h-screen -z-10 opacity-10"
+      />
+
     </>
   );
 }
