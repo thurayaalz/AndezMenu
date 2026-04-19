@@ -1,0 +1,98 @@
+{
+  "hotDrinks": [
+    {
+      "id": "espresso",
+      "name_ar": "إسبريسو",
+      "name_en": "Espresso",
+      "category": "hotDrinks",
+      "calories": 2,
+      "brand": "COFFEE ROASTERS",
+      "tags": ["strong", "single-shot"]
+    },
+    {
+      "id": "americano",
+      "name_ar": "امريكانو",
+      "name_en": "Americano",
+      "category": "hotDrinks",
+      "calories": 2,
+      "notes": "2 Cal | 13 J",
+      "image": "americano"
+    },
+    {
+      "id": "latte",
+      "name_ar": "لاتيه",
+      "name_en": "Latte",
+      "category": "hotDrinks",
+      "calories": 122
+    },
+    {
+      "id": "flat_white",
+      "name_ar": "فلات وايت",
+      "name_en": "Flat white",
+      "category": "hotDrinks",
+      "calories": 92,
+      "brand": "ANDES Coffee Roasters"
+    },
+    {
+      "id": "cortado",
+      "name_ar": "كورتادو",
+      "name_en": "Cortado",
+      "category": "hotDrinks",
+      "calories": 62
+    },
+    {
+      "id": "drip_coffee_hot",
+      "name_ar": "قهوة مقطرة",
+      "name_en": "Drip Coffee",
+      "category": "hotDrinks",
+      "calories": 2
+    }
+  ],
+  "coldDrinks": [
+    {
+      "id": "ice_drip_coffee",
+      "name_ar": "قهوة مقطرة بارد",
+      "name_en": "Ice Drip Coffee",
+      "category": "coldDrinks",
+      "calories": 2
+    },
+    {
+      "id": "ice_americano",
+      "name_ar": "امريكانو بارد",
+      "name_en": "Ice Americano",
+      "category": "coldDrinks",
+      "calories": 2,
+      "brand": "ANDES"
+    },
+    {
+      "id": "fruity_hibiscus",
+      "name_ar": "فروتي كركديه",
+      "name_en": "Fruity Hibiscus",
+      "category": "coldDrinks",
+      "calories": 76
+    }
+  ],
+  "sweets": [
+    {
+      "id": "brownies",
+      "name_ar": "براونيز",
+      "name_en": "Brownies",
+      "category": "sweets",
+      "calories": 310
+    },
+    {
+      "id": "orange_cake",
+      "name_ar": "كيك برتقال",
+      "name_en": "Orange Cake",
+      "category": "sweets",
+      "calories": 371
+    },
+    {
+      "id": "magic_bar",
+      "name_ar": "ماجيك بار",
+      "name_en": "Magic Bar",
+      "category": "sweets",
+      "calories": 236
+    }
+  ]
+}
