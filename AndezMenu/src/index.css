@@ -12,7 +12,7 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: "itfHuwiyaArabic-Bold",Roboto;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
@@ -31,6 +31,14 @@
   }
 }
 
+@font-face{
+ font-family: "itfHuwiyaArabic-Bold";
+  src: local("itfHuwiyaArabic-Bold"), local("itfHuwiyaArabic-Bold"),
+       url("./public/fonts/itfHuwiyaArabic-Bold.otf") format("opentype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;

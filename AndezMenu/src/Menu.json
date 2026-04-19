@@ -7,7 +7,8 @@
       "category": "hotDrinks",
       "calories": 2,
       "brand": "COFFEE ROASTERS",
-      "tags": ["strong", "single-shot"]
+      "tags": ["strong", "single-shot"],
+      "image": "expresso"
     },
     {
       "id": "americano",
@@ -23,7 +24,8 @@
       "name_ar": "لاتيه",
       "name_en": "Latte",
       "category": "hotDrinks",
-      "calories": 122
+      "calories": 122,
+      "image": "latte"
     },
     {
       "id": "flat_white",
@@ -31,21 +33,24 @@
       "name_en": "Flat white",
       "category": "hotDrinks",
       "calories": 92,
-      "brand": "ANDES Coffee Roasters"
+      "brand": "ANDES Coffee Roasters",
+      "image":"flatWhite"
     },
     {
       "id": "cortado",
       "name_ar": "كورتادو",
       "name_en": "Cortado",
       "category": "hotDrinks",
-      "calories": 62
+      "calories": 62,
+      "image":"cortado"
     },
     {
       "id": "drip_coffee_hot",
       "name_ar": "قهوة مقطرة",
       "name_en": "Drip Coffee",
       "category": "hotDrinks",
-      "calories": 2
+      "calories": 2,
+      "image": "drip"
     }
   ],
   "coldDrinks": [
@@ -54,7 +59,8 @@
       "name_ar": "قهوة مقطرة بارد",
       "name_en": "Ice Drip Coffee",
       "category": "coldDrinks",
-      "calories": 2
+      "calories": 2,
+      "image":"IceDrip"
     },
     {
       "id": "ice_americano",
@@ -62,6 +68,7 @@
       "name_en": "Ice Americano",
       "category": "coldDrinks",
       "calories": 2,
+      "image":"IceAmericano",
       "brand": "ANDES"
     },
     {
@@ -69,7 +76,8 @@
       "name_ar": "فروتي كركديه",
       "name_en": "Fruity Hibiscus",
       "category": "coldDrinks",
-      "calories": 76
+      "calories": 76,
+      "image": "fruity_hibiscus"
     }
   ],
   "sweets": [
@@ -78,21 +86,24 @@
       "name_ar": "براونيز",
       "name_en": "Brownies",
       "category": "sweets",
-      "calories": 310
+      "calories": 310,
+      "image":"brownie"
     },
     {
       "id": "orange_cake",
       "name_ar": "كيك برتقال",
       "name_en": "Orange Cake",
       "category": "sweets",
-      "calories": 371
+      "calories": 371,
+      "image":"orange"
     },
     {
       "id": "magic_bar",
       "name_ar": "ماجيك بار",
       "name_en": "Magic Bar",
       "category": "sweets",
-      "calories": 236
+      "calories": 236,
+      "image":"magicBar"
     }
   ]
 }

@@ -22,7 +22,7 @@ export default function App() {
   return (
     <>
       <header className="px-6 py-6">
-        <h1 className="text-2xl font-bold">Andez x Mustqr</h1>
+        <h1 >Andez x Mustqr</h1>
 
         <nav className="mt-4 flex gap-3">
           {[
@@ -33,8 +33,8 @@ export default function App() {
             <button
               key={c.key}
               onClick={() => setCategory(c.key)}
-              className={`px-3 py-1 rounded-full text-sm font-medium ${
-                category === c.key ? "bg-gray-900 text-white" : "bg-gray-100"
+              className={`px-3 py-1  text-sm font-medium ${
+                category === c.key ? "bg-green-900 text-white" : "bg-gray-100"
               }`}
             >
               {c.label}
