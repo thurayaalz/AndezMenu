@@ -16,13 +16,13 @@ export default function App() {
     price: item.price ?? "—",
     cals: item.calories ?? item.cals ?? "—",
     // resolve image path from public/menu; use fallback if missing
-    image: "./public/menu/" + (item.image || "fallback.jpg") + ".png"
+    image: "/menu/" + (item.image || "fallback.jpg") + ".png"
   }));
 
   return (
     <>
       <header className="px-6 py-6">
-        <img src="./public/theYard.png" alt=""/>
+        <img src="/theYard.png" alt=""/>
 
         <nav className="mt-4 flex gap-3">
           {[
