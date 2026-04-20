@@ -3,7 +3,7 @@ import CardDetails from "./details.jsx"
 
 export default function DrinkCard({ drinkInfo }) {
   return (
-    <div className="group w-full max-w-[250px] p-4  rounded-[0.2rem] border border-gray-15 shadow-sm hover:shadow-md transition-shadow duration-300">
+    <div className="group w-full lg:max-w-[280px] sm:max-w-[190px] p-4  rounded-[0.2rem] border border-gray-15 shadow-sm hover:shadow-md transition-shadow duration-300">
       {/* 1- مكون الصورة */}
       <Pics src={drinkInfo.image} alt={drinkInfo.name} className="opacity-85"/>
 

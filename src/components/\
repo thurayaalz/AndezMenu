@@ -5,7 +5,7 @@ export default function CardDetails({ name, price, cals }) {
       <h3 className="text-lg font-bold text-[1.5rem] text-left text-white-900">{name}</h3>
       <div className="flex justify-between items-center">
     <span className=" text-gray-400 font-medium">{price} SAR</span>
-        <span className="text-[#CD4D20] opacity-80 text-xs px-2 py-1">
+        <span className="text-[#CD4D20] text-xs px-2 py-1">
 
           {cals} CAL
         </span>
