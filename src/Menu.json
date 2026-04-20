@@ -28,7 +28,7 @@
       "category": "hotDrinks",
       "calories": 122,
       "image": "latte",
-      "price": 13 
+      "price": 17
     },
     {
       "id": "flat_white",
@@ -38,7 +38,7 @@
       "calories": 92,
       "brand": "ANDES Coffee Roasters",
       "image":"flatWhite",
-      "price": 18
+      "price": 16
     },
     {
       "id": "cortado",
@@ -47,7 +47,7 @@
       "category": "hotDrinks",
       "calories": 62,
       "image":"cortado",
-      "price": 14
+      "price": 15
     },
     {
       "id": "drip_coffee_hot",
@@ -57,6 +57,33 @@
       "calories": 2,
       "image": "drip",
       "price": 18
+    },
+    {
+      "id": "alfredo",
+      "name_ar": "الفريدو",
+      "name_en": "ِAlfredo",
+      "category": "hotDrinks",
+      "calories": 2,
+      "image": "alfredo",
+      "price": 12
+    },
+    {
+      "id": "dayCoffee",
+      "name_ar": "قهوة اليوم",
+      "name_en": "Day Coffee",
+      "category": "hotDrinks",
+      "calories": 2,
+      "image": "day",
+      "price": 10
+    },
+    {
+      "id": "cappuccino",
+      "name_ar": "قهوة اليوم",
+      "name_en": "Cappuccino",
+      "category": "hotDrinks",
+      "calories": 2,
+      "image": "cappuccino",
+      "price": 16
     }
   ],
   "coldDrinks": [
@@ -87,6 +114,42 @@
       "calories": 76,
       "image": "fruity_hibiscus",
       "price": 14
+    },
+    {
+      "id": "ice_cortado",
+      "name_ar": "كورتادو بارد",
+      "name_en": "Ice Cortado ",
+      "category": "coldDrinks",
+      "calories": 2,
+      "image":"IceCortado",
+      "price": 15
+    },
+    {
+      "id": "ice_flat_white",
+      "name_ar": "كورتادو بارد",
+      "name_en": "Ice Flat White ",
+      "category": "coldDrinks",
+      "calories": 2,
+      "image":"IceFlatWhite",
+      "price": 16
+    },
+    {
+      "id": "ice_latte",
+      "name_ar": "كورتادو بارد",
+      "name_en": "Ice Latte ",
+      "category": "coldDrinks",
+      "calories": 2,
+      "image":"IceLatte",
+      "price": 18
+    },
+    {
+      "id": "ice_day_coffee",
+      "name_ar": "كورتادو بارد",
+      "name_en": "Ice Day Coffe ",
+      "category": "coldDrinks",
+      "calories": 2,
+      "image":"IceDayCoffe",
+      "price": 10
     }
   ],
   "sweets": [
