@@ -43,8 +43,8 @@ category === c.key ? "bg-[#324639] text-white rounded-[0.2rem]" : "bg-trancparen
         </nav>
       </header>
 
-      <main className="p-6 items-center justify-center">
-        <section className="grid gap-6 grid-cols-1 sm:grid-cols-3 lg:grid-cols-3">
+      <main className="p-6 px-6 items-center justify-center">
+        <section className="flex flex-col items-center text-center grid gap-6 grid-cols-1 md:grid-cols-2 sm:grid-cols-3 lg:grid-cols-3">
           {normalized.length === 0 ? (
             <div className="text-gray-500">No items in this category.</div>
           ) : (

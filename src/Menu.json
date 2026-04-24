@@ -58,16 +58,7 @@
       "image": "drip",
       "price": 18
     },
-    {
-      "id": "alfredo",
-      "name_ar": "الفريدو",
-      "name_en": "ِAlfredo",
-      "category": "hotDrinks",
-      "calories": 2,
-      "image": "alfredo",
-      "price": 12
-    },
-    {
+   {
       "id": "dayCoffee",
       "name_ar": "قهوة اليوم",
       "name_en": "Coffee of the Day",
@@ -114,6 +105,15 @@
       "calories": 76,
       "image": "fruity_hibiscus",
       "price": 14
+    },
+    {
+      "id": "alfredo",
+      "name_ar": "الفريدو",
+      "name_en": "ِAlfredo",
+      "category": "coldDrinks",
+      "calories": 2,
+      "image": "alfredo",
+      "price": 12
     },
     {
       "id": "ice_cortado",
