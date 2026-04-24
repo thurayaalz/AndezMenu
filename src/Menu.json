@@ -70,7 +70,7 @@
     {
       "id": "dayCoffee",
       "name_ar": "قهوة اليوم",
-      "name_en": "Day Coffee",
+      "name_en": "Coffee of the Day",
       "category": "hotDrinks",
       "calories": 2,
       "image": "day",
