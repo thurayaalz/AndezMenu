@@ -4,6 +4,7 @@ import { useState } from "react";
 import "./App.css";
 import DrinkCard from "./components/card.jsx";
 import menu from "./Menu.json"; 
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [category, setCategory] = useState("hotDrinks"); // "hotDrinks" | "coldDrinks" | "sweets"
@@ -70,7 +71,7 @@ category === c.key ? "bg-[#324639] text-white rounded-[0.2rem]" : "bg-trancparen
         url="https://prod.spline.design/OnkXiLTRPuNCBiPl/scene.splinecode"
         className="fixed top-0 left-0 w-screen h-screen -z-10 opacity-10"
       />
-
+      <Analytics />
     </>
   );
 }
