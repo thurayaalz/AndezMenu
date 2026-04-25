@@ -3,7 +3,7 @@
 import { useState } from "react";
 import "./App.css";
 import DrinkCard from "./components/card.jsx";
-import menu from "./Menu.json"; // exact casing matches your file
+import menu from "./Menu.json"; 
 
 export default function App() {
   const [category, setCategory] = useState("hotDrinks"); // "hotDrinks" | "coldDrinks" | "sweets"
