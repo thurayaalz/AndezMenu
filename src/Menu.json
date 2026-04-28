@@ -179,6 +179,24 @@
       "calories": 236,
       "image":"magicBar",
       "price": 14
+    }, 
+    {
+      "id": "sesame_pudding",
+      "name_ar": "بودنق السمسم",
+      "name_en": "Sesame Pudding",
+      "category": "sweets",
+      "calories": 597,
+      "image":"sesamePudding",
+      "price": 24
+    }, 
+    {
+      "id": "tiramisu",
+      "name_ar": "تيراميسو",
+      "name_en": "Tiramisu",
+      "category": "sweets",
+      "calories": 534,
+      "image":"tiramisu",
+      "price": 24
     }
   ]
 }
